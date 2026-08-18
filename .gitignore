@@ -1,0 +1,43 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local datasets and generated data
+tracking-2023/
+data/
+datasets/
+outputs/
+runs/
+artifacts/
+
+# Model checkpoints and exports
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+checkpoints/
+weights/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
