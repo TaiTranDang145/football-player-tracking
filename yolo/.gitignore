@@ -1,0 +1,6 @@
+images/*
+labels/*
+export_summary.json
+
+!images/.gitkeep
+!labels/.gitkeep
