@@ -8,6 +8,14 @@ version = "0.1.0"
 description = "Football player detection, team classification, and tracking"
 requires-python = ">=3.10"
 
+[project.optional-dependencies]
+training = [
+    "ultralytics>=8.3",
+    "tensorboard>=2.14",
+    "tqdm>=4.66",
+    "torchvision==0.20.1",
+]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 

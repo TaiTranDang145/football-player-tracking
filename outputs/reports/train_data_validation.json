@@ -1,0 +1,1634 @@
+{
+  "valid": false,
+  "source_root": "D:\\Tuan code\\football-player-tracking\\tracking-2023\\train",
+  "num_sequences": 57,
+  "num_annotations": 733002,
+  "class_counts": {
+    "ball": 40931,
+    "goalkeeper": 24107,
+    "other": 1446,
+    "player": 604972,
+    "referee": 61546
+  },
+  "team_counts": {
+    "neutral": 103923,
+    "team_left": 314413,
+    "team_right": 314666
+  },
+  "error_count": 1,
+  "warning_count": 0,
+  "sequences": [
+    {
+      "sequence_name": "SNMOT-060",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-060",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13540,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 734,
+        "goalkeeper": 288,
+        "player": 11079,
+        "referee": 1439
+      },
+      "team_counts": {
+        "neutral": 2173,
+        "team_left": 5629,
+        "team_right": 5738
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-061",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-061",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 11189,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 740,
+        "goalkeeper": 472,
+        "player": 9029,
+        "referee": 948
+      },
+      "team_counts": {
+        "neutral": 1688,
+        "team_left": 4187,
+        "team_right": 5314
+      },
+      "num_tracklets": 27,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-062",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-062",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13383,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 750,
+        "goalkeeper": 138,
+        "player": 11437,
+        "referee": 1058
+      },
+      "team_counts": {
+        "neutral": 1808,
+        "team_left": 5465,
+        "team_right": 6110
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-063",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-063",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 12223,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 750,
+        "goalkeeper": 179,
+        "player": 10066,
+        "referee": 1228
+      },
+      "team_counts": {
+        "neutral": 1978,
+        "team_left": 4955,
+        "team_right": 5290
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-064",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-064",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 16225,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 590,
+        "goalkeeper": 372,
+        "player": 13872,
+        "referee": 1391
+      },
+      "team_counts": {
+        "neutral": 1981,
+        "team_left": 7584,
+        "team_right": 6660
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-065",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-065",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13690,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 675,
+        "goalkeeper": 245,
+        "player": 11601,
+        "referee": 1169
+      },
+      "team_counts": {
+        "neutral": 1844,
+        "team_left": 5890,
+        "team_right": 5956
+      },
+      "num_tracklets": 26,
+      "issues": [
+        {
+          "severity": "error",
+          "sequence": "SNMOT-065",
+          "message": "bbox width/height must be positive",
+          "line": 1285
+        }
+      ]
+    },
+    {
+      "sequence_name": "SNMOT-066",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-066",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 15746,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 724,
+        "goalkeeper": 499,
+        "player": 13277,
+        "referee": 1246
+      },
+      "team_counts": {
+        "neutral": 1970,
+        "team_left": 7245,
+        "team_right": 6531
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-067",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-067",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 14739,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 707,
+        "goalkeeper": 627,
+        "player": 12233,
+        "referee": 1172
+      },
+      "team_counts": {
+        "neutral": 1879,
+        "team_left": 5930,
+        "team_right": 6930
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-068",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-068",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13396,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 718,
+        "goalkeeper": 446,
+        "player": 11372,
+        "referee": 860
+      },
+      "team_counts": {
+        "neutral": 1578,
+        "team_left": 5313,
+        "team_right": 6505
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-069",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-069",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 12828,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 768,
+        "player": 10630,
+        "referee": 1430
+      },
+      "team_counts": {
+        "neutral": 2198,
+        "team_left": 5782,
+        "team_right": 4848
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-070",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-070",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 11346,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 737,
+        "goalkeeper": 272,
+        "player": 9406,
+        "referee": 931
+      },
+      "team_counts": {
+        "neutral": 1668,
+        "team_left": 4551,
+        "team_right": 5127
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-071",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-071",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 15002,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 701,
+        "goalkeeper": 679,
+        "player": 13020,
+        "referee": 602
+      },
+      "team_counts": {
+        "neutral": 1303,
+        "team_left": 5741,
+        "team_right": 7958
+      },
+      "num_tracklets": 22,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-072",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-072",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13043,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 650,
+        "goalkeeper": 69,
+        "player": 11508,
+        "referee": 816
+      },
+      "team_counts": {
+        "neutral": 1466,
+        "team_left": 5657,
+        "team_right": 5920
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-073",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-073",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 14171,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 711,
+        "goalkeeper": 548,
+        "player": 11850,
+        "referee": 1062
+      },
+      "team_counts": {
+        "neutral": 1773,
+        "team_left": 5553,
+        "team_right": 6845
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-074",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-074",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 15852,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 750,
+        "goalkeeper": 237,
+        "player": 13506,
+        "referee": 1359
+      },
+      "team_counts": {
+        "neutral": 2109,
+        "team_left": 6490,
+        "team_right": 7253
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-075",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-075",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 14519,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 552,
+        "goalkeeper": 750,
+        "player": 12776,
+        "referee": 441
+      },
+      "team_counts": {
+        "neutral": 993,
+        "team_left": 5373,
+        "team_right": 8153
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-076",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-076",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 18709,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 609,
+        "goalkeeper": 474,
+        "other": 1183,
+        "player": 14320,
+        "referee": 2123
+      },
+      "team_counts": {
+        "neutral": 3915,
+        "team_left": 6947,
+        "team_right": 7847
+      },
+      "num_tracklets": 29,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-077",
+      "game_id": "4",
+      "meta": {
+        "name": "SNMOT-077",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 14442,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 733,
+        "goalkeeper": 586,
+        "player": 12003,
+        "referee": 1120
+      },
+      "team_counts": {
+        "neutral": 1853,
+        "team_left": 7221,
+        "team_right": 5368
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-097",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-097",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 12832,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 734,
+        "goalkeeper": 750,
+        "player": 10711,
+        "referee": 637
+      },
+      "team_counts": {
+        "neutral": 1371,
+        "team_left": 5432,
+        "team_right": 6029
+      },
+      "num_tracklets": 22,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-098",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-098",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 9639,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 748,
+        "goalkeeper": 331,
+        "player": 7685,
+        "referee": 875
+      },
+      "team_counts": {
+        "neutral": 1623,
+        "team_left": 4039,
+        "team_right": 3977
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-099",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-099",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 10392,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 579,
+        "goalkeeper": 631,
+        "player": 8084,
+        "referee": 1098
+      },
+      "team_counts": {
+        "neutral": 1677,
+        "team_left": 4341,
+        "team_right": 4374
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-100",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-100",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13205,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 743,
+        "goalkeeper": 495,
+        "player": 10940,
+        "referee": 1027
+      },
+      "team_counts": {
+        "neutral": 1770,
+        "team_left": 5836,
+        "team_right": 5599
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-101",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-101",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 8767,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 742,
+        "goalkeeper": 308,
+        "player": 6956,
+        "referee": 761
+      },
+      "team_counts": {
+        "neutral": 1503,
+        "team_left": 3413,
+        "team_right": 3851
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-102",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-102",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13228,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 691,
+        "goalkeeper": 351,
+        "player": 11137,
+        "referee": 1049
+      },
+      "team_counts": {
+        "neutral": 1740,
+        "team_left": 5305,
+        "team_right": 6183
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-103",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-103",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 15267,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 746,
+        "goalkeeper": 424,
+        "player": 12859,
+        "referee": 1238
+      },
+      "team_counts": {
+        "neutral": 1984,
+        "team_left": 6953,
+        "team_right": 6330
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-104",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-104",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 14706,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 739,
+        "goalkeeper": 335,
+        "player": 13004,
+        "referee": 628
+      },
+      "team_counts": {
+        "neutral": 1367,
+        "team_left": 6085,
+        "team_right": 7254
+      },
+      "num_tracklets": 23,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-105",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-105",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13085,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 997,
+        "goalkeeper": 601,
+        "player": 10620,
+        "referee": 867
+      },
+      "team_counts": {
+        "neutral": 1864,
+        "team_left": 4778,
+        "team_right": 6443
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-106",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-106",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 12292,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 572,
+        "goalkeeper": 750,
+        "player": 10140,
+        "referee": 830
+      },
+      "team_counts": {
+        "neutral": 1402,
+        "team_left": 7213,
+        "team_right": 3677
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-107",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-107",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 12571,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 740,
+        "goalkeeper": 324,
+        "player": 10524,
+        "referee": 983
+      },
+      "team_counts": {
+        "neutral": 1723,
+        "team_left": 5055,
+        "team_right": 5793
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-108",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-108",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 11248,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 712,
+        "goalkeeper": 498,
+        "player": 9013,
+        "referee": 1025
+      },
+      "team_counts": {
+        "neutral": 1737,
+        "team_left": 4989,
+        "team_right": 4522
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-109",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-109",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13736,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 725,
+        "goalkeeper": 232,
+        "player": 11454,
+        "referee": 1325
+      },
+      "team_counts": {
+        "neutral": 2050,
+        "team_left": 6037,
+        "team_right": 5649
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-110",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-110",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13356,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 703,
+        "goalkeeper": 333,
+        "player": 11158,
+        "referee": 1162
+      },
+      "team_counts": {
+        "neutral": 1865,
+        "team_left": 6350,
+        "team_right": 5141
+      },
+      "num_tracklets": 27,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-111",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-111",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 11444,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 723,
+        "goalkeeper": 461,
+        "player": 9042,
+        "referee": 1218
+      },
+      "team_counts": {
+        "neutral": 1941,
+        "team_left": 4827,
+        "team_right": 4676
+      },
+      "num_tracklets": 28,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-112",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-112",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 11840,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 740,
+        "goalkeeper": 434,
+        "player": 9825,
+        "referee": 841
+      },
+      "team_counts": {
+        "neutral": 1581,
+        "team_left": 5600,
+        "team_right": 4659
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-113",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-113",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 15760,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 750,
+        "goalkeeper": 501,
+        "player": 13009,
+        "referee": 1500
+      },
+      "team_counts": {
+        "neutral": 2250,
+        "team_left": 5934,
+        "team_right": 7576
+      },
+      "num_tracklets": 31,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-114",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-114",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 9919,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 711,
+        "goalkeeper": 249,
+        "player": 7597,
+        "referee": 1362
+      },
+      "team_counts": {
+        "neutral": 2073,
+        "team_left": 4635,
+        "team_right": 3211
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-115",
+      "game_id": "6",
+      "meta": {
+        "name": "SNMOT-115",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13155,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 750,
+        "goalkeeper": 493,
+        "player": 11162,
+        "referee": 750
+      },
+      "team_counts": {
+        "neutral": 1500,
+        "team_left": 5550,
+        "team_right": 6105
+      },
+      "num_tracklets": 23,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-151",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-151",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 10626,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 750,
+        "goalkeeper": 319,
+        "player": 8512,
+        "referee": 1045
+      },
+      "team_counts": {
+        "neutral": 1795,
+        "team_left": 4475,
+        "team_right": 4356
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-152",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-152",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 15950,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 721,
+        "goalkeeper": 704,
+        "player": 13775,
+        "referee": 750
+      },
+      "team_counts": {
+        "neutral": 1471,
+        "team_left": 6382,
+        "team_right": 8097
+      },
+      "num_tracklets": 22,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-153",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-153",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 10079,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 735,
+        "goalkeeper": 530,
+        "player": 7673,
+        "referee": 1141
+      },
+      "team_counts": {
+        "neutral": 1876,
+        "team_left": 3913,
+        "team_right": 4290
+      },
+      "num_tracklets": 28,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-154",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-154",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 12977,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 669,
+        "goalkeeper": 426,
+        "player": 10630,
+        "referee": 1252
+      },
+      "team_counts": {
+        "neutral": 1921,
+        "team_left": 6177,
+        "team_right": 4879
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-155",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-155",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 11048,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 745,
+        "goalkeeper": 429,
+        "player": 8750,
+        "referee": 1124
+      },
+      "team_counts": {
+        "neutral": 1869,
+        "team_left": 5655,
+        "team_right": 3524
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-156",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-156",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 12728,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 474,
+        "goalkeeper": 750,
+        "player": 10504,
+        "referee": 1000
+      },
+      "team_counts": {
+        "neutral": 1474,
+        "team_left": 6699,
+        "team_right": 4555
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-157",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-157",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 10443,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 746,
+        "goalkeeper": 508,
+        "player": 8227,
+        "referee": 962
+      },
+      "team_counts": {
+        "neutral": 1708,
+        "team_left": 5151,
+        "team_right": 3584
+      },
+      "num_tracklets": 24,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-158",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-158",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 10586,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 666,
+        "goalkeeper": 523,
+        "player": 8484,
+        "referee": 913
+      },
+      "team_counts": {
+        "neutral": 1579,
+        "team_left": 3794,
+        "team_right": 5213
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-159",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-159",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 12550,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 740,
+        "goalkeeper": 385,
+        "player": 10000,
+        "referee": 1425
+      },
+      "team_counts": {
+        "neutral": 2165,
+        "team_left": 6121,
+        "team_right": 4264
+      },
+      "num_tracklets": 23,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-160",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-160",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 10705,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 750,
+        "goalkeeper": 128,
+        "player": 8609,
+        "referee": 1218
+      },
+      "team_counts": {
+        "neutral": 1968,
+        "team_left": 4433,
+        "team_right": 4304
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-161",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-161",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 10953,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 709,
+        "goalkeeper": 332,
+        "player": 8725,
+        "referee": 1187
+      },
+      "team_counts": {
+        "neutral": 1896,
+        "team_left": 4765,
+        "team_right": 4292
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-162",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-162",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13517,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 688,
+        "goalkeeper": 507,
+        "player": 11401,
+        "referee": 921
+      },
+      "team_counts": {
+        "neutral": 1609,
+        "team_left": 5488,
+        "team_right": 6420
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-163",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-163",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 10537,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 694,
+        "goalkeeper": 314,
+        "player": 8466,
+        "referee": 1063
+      },
+      "team_counts": {
+        "neutral": 1757,
+        "team_left": 4548,
+        "team_right": 4232
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-164",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-164",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13781,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 869,
+        "goalkeeper": 422,
+        "player": 10990,
+        "referee": 1500
+      },
+      "team_counts": {
+        "neutral": 2369,
+        "team_left": 6313,
+        "team_right": 5099
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-165",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-165",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 11525,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 747,
+        "goalkeeper": 680,
+        "player": 9325,
+        "referee": 773
+      },
+      "team_counts": {
+        "neutral": 1520,
+        "team_left": 5398,
+        "team_right": 4607
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-166",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-166",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13407,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 948,
+        "goalkeeper": 100,
+        "other": 263,
+        "player": 10646,
+        "referee": 1450
+      },
+      "team_counts": {
+        "neutral": 2661,
+        "team_left": 5296,
+        "team_right": 5450
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-167",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-167",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 12924,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 744,
+        "goalkeeper": 381,
+        "player": 10793,
+        "referee": 1006
+      },
+      "team_counts": {
+        "neutral": 1750,
+        "team_left": 5276,
+        "team_right": 5898
+      },
+      "num_tracklets": 25,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-168",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-168",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 13772,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 706,
+        "goalkeeper": 94,
+        "player": 11665,
+        "referee": 1307
+      },
+      "team_counts": {
+        "neutral": 2013,
+        "team_left": 5490,
+        "team_right": 6269
+      },
+      "num_tracklets": 23,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-169",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-169",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 11752,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 786,
+        "goalkeeper": 484,
+        "player": 9551,
+        "referee": 931
+      },
+      "team_counts": {
+        "neutral": 1717,
+        "team_left": 4806,
+        "team_right": 5229
+      },
+      "num_tracklets": 26,
+      "issues": []
+    },
+    {
+      "sequence_name": "SNMOT-170",
+      "game_id": "9",
+      "meta": {
+        "name": "SNMOT-170",
+        "image_dir": "img1",
+        "image_extension": ".jpg",
+        "frame_rate": 25.0,
+        "sequence_length": 750,
+        "image_width": 1920,
+        "image_height": 1080
+      },
+      "num_annotations": 12657,
+      "num_referenced_frames": 750,
+      "class_counts": {
+        "ball": 600,
+        "goalkeeper": 709,
+        "player": 10341,
+        "referee": 1007
+      },
+      "team_counts": {
+        "neutral": 1607,
+        "team_left": 6348,
+        "team_right": 4702
+      },
+      "num_tracklets": 25,
+      "issues": []
+    }
+  ],
+  "issues": [
+    {
+      "severity": "error",
+      "sequence": "SNMOT-065",
+      "message": "bbox width/height must be positive",
+      "line": 1285
+    }
+  ]
+}

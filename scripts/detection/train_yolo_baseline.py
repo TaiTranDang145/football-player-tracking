@@ -1,4 +1,4 @@
-"""Train a small Ultralytics YOLO baseline for pipeline verification."""
+"""Train a small Ultralytics YOLO baseline with TensorBoard logging."""
 
 from __future__ import annotations
 
@@ -97,6 +97,27 @@ def _resolve_device(requested: str) -> Union[int, str]:
     return 0 if torch.cuda.is_available() else "cpu"
 
 
+def _ensure_tensorboard() -> None:
+    """Fail early when TensorBoard logging cannot be initialized."""
+    try:
+        from torch.utils.tensorboard import SummaryWriter  # noqa: F401
+    except (ImportError, ModuleNotFoundError) as error:
+        raise SystemExit(
+            "TensorBoard is required for this training script. Install the training "
+            "dependencies with: pip install -e \".[training]\""
+        ) from error
+
+
+def _announce_tensorboard(trainer: Any) -> None:
+    """Print the exact Ultralytics run directory used by TensorBoard."""
+    save_dir = Path(getattr(trainer, "save_dir", "outputs/runs/detection"))
+    print(
+        "TensorBoard logs: %s\n"
+        "Open another terminal and run: tensorboard --logdir \"%s\""
+        % (save_dir, save_dir.parent)
+    )
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -159,6 +180,8 @@ def main() -> int:
     if args.imgsz <= 0 or args.batch <= 0 or args.workers < 0:
         raise SystemExit("--imgsz and --batch must be positive; --workers cannot be negative.")
 
+    _ensure_tensorboard()
+
     data_path = args.data.resolve()
     if not data_path.is_file():
         raise SystemExit("Dataset YAML not found: %s" % data_path)
@@ -173,6 +196,7 @@ def main() -> int:
 
     model = YOLO(args.model)
     progress = TrainingProgress()
+    model.add_callback("on_pretrain_routine_start", _announce_tensorboard)
     model.add_callback("on_train_start", progress.on_train_start)
     model.add_callback("on_train_epoch_start", progress.on_train_epoch_start)
     model.add_callback("on_train_batch_end", progress.on_train_batch_end)

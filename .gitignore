@@ -13,7 +13,7 @@ __pycache__/
 tracking-2023/
 # data/
 datasets/
-outputs/
+
 runs/
 artifacts/
 

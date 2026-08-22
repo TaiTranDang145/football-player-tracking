@@ -105,6 +105,32 @@ Trong architecture mới:
 
 Chi tiết data contract xem tại [`docs/DATA_INPUT.md`](docs/DATA_INPUT.md).
 
+## Training và TensorBoard
+
+Cài các dependency cho training:
+
+```powershell
+& .venv\Scripts\python.exe -m pip install -e ".[training]"
+```
+
+Chạy baseline YOLO:
+
+```powershell
+& .venv\Scripts\python.exe scripts\detection\train_yolo_baseline.py `
+  --data yolo\dataset.yaml `
+  --epochs 5 `
+  --device auto
+```
+
+Trong terminal khác, mở TensorBoard:
+
+```powershell
+& .venv\Scripts\tensorboard.exe --logdir outputs\runs\detection
+```
+
+Sau đó mở `http://localhost:6006`. Ultralytics sẽ ghi các đường loss train,
+learning rate và metric validation vào thư mục run tương ứng.
+
 ## Data labeling
 
 `gt.txt` theo format MOTChallenge không có `class_id` riêng. Class được suy ra bằng cách kết hợp:

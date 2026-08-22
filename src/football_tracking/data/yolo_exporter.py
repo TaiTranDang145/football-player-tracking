@@ -138,16 +138,18 @@ def _materialize_image(source: Path, destination: Path, image_mode: str) -> None
 
 
 def _write_dataset_yaml(output_root: Path) -> None:
+    # Leave out ``path`` deliberately. Ultralytics then uses the directory
+    # containing dataset.yaml as the dataset root, which keeps the export
+    # portable when the whole dataset is moved to another machine or folder.
     (output_root / "dataset.yaml").write_text(
-        "path: .\n"
         "train: images/train\n"
-        "val: images/val\n"
-        "test: images/test\n"
-        "names:\n"
-        "  0: ball\n"
-        "  1: player\n"
-        "  2: goalkeeper\n"
-        "  3: referee\n",
+        + "val: images/val\n"
+        + "test: images/test\n"
+        + "names:\n"
+        + "  0: ball\n"
+        + "  1: player\n"
+        + "  2: goalkeeper\n"
+        + "  3: referee\n",
         encoding="utf-8",
     )
 

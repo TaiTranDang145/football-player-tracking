@@ -1,0 +1,47 @@
+{
+  "yolo_root": "D:\\Tuan code\\football-player-tracking\\yolo",
+  "output_root": "D:\\Tuan code\\football-player-tracking\\outputs\\visualizations\\yolo_qa",
+  "fps_assumption": 25,
+  "clips_per_split": 2,
+  "frames_per_clip": 25,
+  "splits": {
+    "train": {
+      "num_images": 14250,
+      "num_labels": 14250,
+      "num_sampled_images": 50,
+      "validation_scope": "sampled contiguous clips only",
+      "empty_labels_in_sample": 0,
+      "class_counts_in_sample": {
+        "ball": 50,
+        "goalkeeper": 40,
+        "player": 804,
+        "referee": 50
+      },
+      "num_issues": 0,
+      "issues_first_20": [],
+      "clips": [
+        {
+          "clip": 1,
+          "sequence": "SNMOT-097",
+          "start_frame": 363,
+          "end_frame": 387,
+          "num_frames": 25,
+          "preview": "D:\\Tuan code\\football-player-tracking\\outputs\\visualizations\\yolo_qa\\train_clip_01_preview.jpg"
+        },
+        {
+          "clip": 2,
+          "sequence": "SNMOT-115",
+          "start_frame": 363,
+          "end_frame": 387,
+          "num_frames": 25,
+          "preview": "D:\\Tuan code\\football-player-tracking\\outputs\\visualizations\\yolo_qa\\train_clip_02_preview.jpg"
+        }
+      ],
+      "previews": [
+        "D:\\Tuan code\\football-player-tracking\\outputs\\visualizations\\yolo_qa\\train_clip_01_preview.jpg",
+        "D:\\Tuan code\\football-player-tracking\\outputs\\visualizations\\yolo_qa\\train_clip_02_preview.jpg"
+      ]
+    }
+  },
+  "valid": true
+}
