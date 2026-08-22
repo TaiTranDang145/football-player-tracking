@@ -12,6 +12,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Dict, List, Mapping, Optional, Sequence, Tuple
 
+from .paths import resolve_project_output_path
 from .validator import (
     ROLE_NAMES,
     _frame_path,
@@ -159,11 +160,14 @@ def export_yolo_dataset(
     output_root: Path,
     seed: int = 42,
     image_mode: str = "hardlink",
+    allowed_output_root: Optional[Path] = None,
 ) -> Dict:
     """Export raw annotations and frames into a YOLO dataset."""
 
     source_root = Path(source_root).resolve()
     output_root = Path(output_root).resolve()
+    if allowed_output_root is not None:
+        output_root = resolve_project_output_path(output_root, allowed_output_root)
     sequence_dirs = discover_sequences(source_root)
     if not sequence_dirs:
         raise ValueError("no sequences found below %s" % source_root)

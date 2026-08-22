@@ -10,6 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 
 from football_tracking.data.validator import validate_dataset, write_report
+from football_tracking.data.paths import resolve_project_output_path
 
 
 def main() -> int:
@@ -21,8 +22,10 @@ def main() -> int:
         default=Path("outputs/reports/data_validation.json"),
     )
     args = parser.parse_args()
+    project_root = Path(__file__).resolve().parents[2]
+    report_path = resolve_project_output_path(args.report, project_root)
     report = validate_dataset(args.source)
-    write_report(report, args.report)
+    write_report(report, report_path, project_root)
     print(
         json.dumps(
             {
@@ -31,7 +34,7 @@ def main() -> int:
                 "num_annotations": report.get("num_annotations", 0),
                 "error_count": report.get("error_count", 0),
                 "warning_count": report.get("warning_count", 0),
-                "report": str(args.report),
+                "report": str(report_path),
             },
             indent=2,
             ensure_ascii=False,

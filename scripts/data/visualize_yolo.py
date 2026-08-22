@@ -5,11 +5,16 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Dict, List, Sequence, Tuple
 
 from PIL import Image, ImageDraw, ImageFont
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+
+from football_tracking.data.paths import resolve_project_output_path
 
 
 CLASS_NAMES = {
@@ -164,7 +169,8 @@ def run_visual_qa(
     frames_per_clip: int = 25,
 ) -> Dict:
     yolo_root = Path(yolo_root).resolve()
-    output_root = Path(output_root).resolve()
+    project_root = Path(__file__).resolve().parents[2]
+    output_root = resolve_project_output_path(output_root, project_root)
     report = {
         "yolo_root": str(yolo_root),
         "output_root": str(output_root),

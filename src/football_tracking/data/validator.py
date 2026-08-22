@@ -9,6 +9,9 @@ from collections import Counter
 from pathlib import Path
 from typing import Dict, Iterable, List, Mapping, Optional, Tuple
 
+from .paths import resolve_project_output_path
+
+
 
 ROLE_NAMES = {
     0: "ball",
@@ -272,8 +275,12 @@ def validate_dataset(source_root: Path) -> Dict:
     }
 
 
-def write_report(report: Mapping, output_path: Path) -> None:
-    output_path = Path(output_path)
+def write_report(
+    report: Mapping, output_path: Path, allowed_output_root: Optional[Path] = None
+) -> None:
+    output_path = Path(output_path).resolve()
+    if allowed_output_root is not None:
+        output_path = resolve_project_output_path(output_path, allowed_output_root)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
