@@ -11,7 +11,7 @@ __pycache__/
 
 # Local datasets and generated data
 tracking-2023/
-data/
+# data/
 datasets/
 outputs/
 runs/
